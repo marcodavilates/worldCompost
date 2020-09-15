@@ -184,7 +184,7 @@ body header .barra{
 .btns{float: right;}
 
 /*........................Que hacemos..........................*/
-
+/*
 .section-activities{
     height: 100vh;
     color: black;
@@ -238,7 +238,7 @@ body header .barra{
     height: 60px;
     background-color: #fff;
 }
-
+*/
 /*...........................Products................................................*/
 
 .section-products{
@@ -343,36 +343,6 @@ body .swiper-pagination .swiper-pagination-progressbar-fill {
     display: none;
 }
 
-/*.........................Nosotros.................................*/
-
-.about-us{
-    background-color: #fff;
-}
-
-.about-us .icons-big{
-    color: rgb(2, 129, 12);
-}
-
-.content-box{
-    padding: 2%;
-    text-align: center;
-    color: rgb(153, 153, 153);
-    margin-top: 10px ;
-}
-
-
-.about-us h3{
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 12px auto;
-    font-size: 108%;
-}
-
-.about-us .long-copy{
-    font-size: 90%;
-    line-height: 130%;
-}
-
 /*...........................Clientes.....................................*/
 
 
@@ -389,7 +359,7 @@ body .swiper-pagination .swiper-pagination-progressbar-fill {
 }
 
 body blockquote{
-    color: black;
+    color: rgb(126, 126, 126);
     font-size: 90%;
     padding:2%;
     font-style: italic;
@@ -423,9 +393,39 @@ body blockquote{
     margin-bottom: 0;
     
 }
+/*.........................reasons.................................*/
+
+.about-us{
+    background-color: #f7f7f7;
+}
+
+.about-us .icons-big{
+    color: rgb(2, 129, 12);
+}
+
+.content-box{
+    padding: 2%;
+    text-align: center;
+    color: rgb(126, 124, 124);
+    margin-top: 10px ;
+}
+
+
+.about-us h3{
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 12px auto;
+    font-size: 108%;
+}
+
+.about-us .long-copy{
+    font-size: 90%;
+    line-height: 130%;
+}
+
 
 /*...............................Planes.....................................*/
-
+/*
 .planes{
     color: rgb(148, 147, 147);
 }
@@ -496,6 +496,7 @@ body blockquote{
 .footer-plan{
     text-align: center;
 }
+*/
 /*..............................Botones........................*/
 .btn:link,
 .btn:visited,
@@ -542,7 +543,7 @@ input[type=submit]:active{
 }
 
 #localizacion{
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     z-index: 0;
     position: relative;
@@ -631,7 +632,7 @@ footer{
 }
 
 .rrss-footer li a{
-    font-size: 200%;
+    font-size: 350%;
     margin-right: 10px;
 }
 
@@ -639,11 +640,12 @@ footer{
     margin-right: 5px;
 }
 .items-footer{text-align: left;}
-.rrss-footer{text-align: right;}
+.rrss-footer{text-align: center;}
 
 ion-icon[name=logo-facebook],
 ion-icon[name=logo-twitter],
 ion-icon[name=logo-instagram],
+ion-icon[name=logo-youtube],
 ion-icon[name=logo-whatsapp]{
     transition: color 0.2s;
 }
@@ -658,6 +660,10 @@ ion-icon[name=logo-twitter]:hover{
 
 ion-icon[name=logo-instagram]:hover{
     color: #007bb5 ;
+}
+
+ion-icon[name=logo-youtube]:hover{
+    color: #b50000 ;
 }
 
 ion-icon[name=logo-whatsapp]:hover{
