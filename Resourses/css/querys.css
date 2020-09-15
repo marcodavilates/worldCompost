@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1200px){
+    .row{
+        padding: 0 2%;
+    }
+    .main-title{
+        width: 100%;
+        left: 50%;
+        padding-left: 5%;
+    }
+
+    .cliente-rex cite img{
+        margin-left: 5px;
+    }
+
+    .cliente-rex:last-child{padding-bottom: 0;}
+
+    #localizacion{display: block;}
+    
+}    
+/* For small tablets to big tablets  */
+@media only screen and (max-width: 1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .cliente-rex{
+        margin-left: 12px;
+        margin-right: 0px;
+    }
+    .card{
+        width: 100%;
+        margin-left: 0;
+    }
+    .clientes .span_1_of_2{
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .cliente-rex cite img{
+        width: 70px;
+    }
+
+}
+/* For small phones  to small tablets*/
+@media only screen and (max-width: 757px){
+    body{font-size: 16px;}
+    section{padding: 30px 0;}
+    .box-activities{width: 45%;}
+    .col{width: 100%;}
+    .clientes .span_1_of_2{width: 100%;}
+    .clientes h2{margin-bottom: 5px;}
+    .clientes .span_1_of_4{width: 23%;float: left;}
+    .clientes .span_3_of_4{width: 74%;float: left;}
+    .cliente-rex{margin-top: 5px;}
+    .separa{margin-top: 0;}
+    .cliente-rex cite img{display: block; margin: 0 auto;}
+    .section-activities .col{width: 100%;}
+    .section-proyects{padding-top: 20px;}
+    .card{text-align: center; margin: 10px auto;}
+    .card p{text-align: center;}
+    .body-plan{font-size: 110%;}
+    .form-contacto{display: none;}
+    .form-contacto-s{display: block; color: #000000;}
+    .form-contacto-s .col{margin: 0; margin: 3px 1% 5px 3%;}
+    #localizacion{height: 50vh;}
+    label,
+    input,
+    select,
+    option,
+    textarea{font-size:80%}
+    footer .span_1_of_2{width: 48%;}
+    .marketing{margin-bottom: 25px;}
+    body .main-nav{display: none;}
+}
+
+
+
+/* For small phones */
+@media only screen and (max-width: 480px){
+    footer .span_1_of_2{width: 100%;}
+    body{font-size: 15px;}
+    .rrss-footer{text-align: center;}
+    .items-footer{text-align: center; font-size: 120%;}
+    
+}
